@@ -1,9 +1,4 @@
-@font-face {
-  font-family: Chewy-Regular;
-  src: url('../src/fonts/Chewy-Regular.ttf');
-}
-
-.main{
+.main {
   background-color: white;
   position: relative;
   width: 100%;
@@ -11,7 +6,7 @@
   overflow: hidden;
 }
 
-.divCoracao{
+.divCoracao {
   width: 20%;
   height: max-content;
   display: block;
@@ -22,12 +17,14 @@
   width: 100%;
 }
 
-.login-container{
+.loginContainer {
   width: 100%;
   height: 100vh;
+  position: relative;
+  z-index: 2;
 }
 
-.login{
+.login {
   display: flex;
   flex-direction: column;
   width: 25%;
@@ -35,25 +32,26 @@
   gap: 2rem;
 }
 
-.inputLogin{
+.inputLogin {
   padding: 1.3rem;
   border-radius: 7px;
   outline: none;
   border: none;
   font-size: 1rem;
-  background-color: #E4E4E4;
+  background-color: #e4e4e4;
 }
 
-.buttonLogin{
+.buttonLogin {
   padding: 1rem;
   border-radius: 7px;
   outline: none;
   border: none;
   font-size: 1.2rem;
-  background-color: #FF5757;
+  background-color: #ff5757;
+  cursor: pointer;
 }
 
-.avataresContainer{
+.avataresContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -63,6 +61,6 @@
   bottom: -50px;
 }
 
-.avataresContainer img{
+.avataresContainer img {
   width: 25%;
 }
