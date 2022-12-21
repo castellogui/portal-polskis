@@ -55,7 +55,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: max-content;
   bottom: -50px;

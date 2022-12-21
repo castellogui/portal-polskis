@@ -1,0 +1,64 @@
+@font-face {
+  font-family: RalewayHeavy;
+  src: url("../src/fonts/Raleway-ExtraBold.ttf");
+}
+
+.mainContainer {
+  background-color: white;
+  height: 100vh;
+}
+
+.dica {
+  color: black;
+  font-family: RalewayHeavy;
+  font-size: 1.5rem;
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+  padding-top: 8rem;
+}
+
+.palavraContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 7rem;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.label {
+  color: black;
+  font-family: RalewayHeavy;
+  font-size: 1.5rem;
+  width: 60%;
+}
+
+.divInputButon {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.inputPalavra {
+  padding: 1.6rem;
+  border-radius: 7px;
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  color: black;
+  background-color: #e4e4e4;
+}
+
+.botaoPalavra {
+  background-color: #ff5757;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
