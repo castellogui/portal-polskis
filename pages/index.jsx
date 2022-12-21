@@ -20,11 +20,11 @@ export default function Index() {
 
   const login = (e) => {
     e.preventDefault();
-    let login = process.env.LOGINS.filter((login) => {
+    let login = process.env.logins.filter((login) => {
       return login == usuario;
     });
-    let loginIndex = process.env.LOGINS.indexOf(login[0]);
-    let userAutenticado = process.env.SENHAS[loginIndex] == senha;
+    let loginIndex = process.env.logins.indexOf(login[0]);
+    let userAutenticado = process.env.senhas[loginIndex] == senha;
     if (userAutenticado) {
       router.push("/palavra");
     } else {
