@@ -60,7 +60,7 @@ export default function palavra(props) {
         JSON.stringify([{ palavra: palavra.palavra, data: palavra.data }])
       );
       if (palavra.data == "2023-01-04 ") {
-        Router.push("/dia1");
+        Router.push("/frases");
         return;
       }
 
