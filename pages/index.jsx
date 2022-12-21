@@ -26,7 +26,13 @@ export default function Index() {
     let loginIndex = process.env.logins.indexOf(login[0]);
     let userAutenticado = process.env.senhas[loginIndex] == senha;
     if (userAutenticado) {
-      router.push("/palavra");
+      router.push(
+        {
+          pathname: "/palavra",
+          query: { auth: true },
+        },
+        "/palavra"
+      );
     } else {
       showMessage("Login incorreto.", "error", "Tente novamente ou chame o Polski.");
     }

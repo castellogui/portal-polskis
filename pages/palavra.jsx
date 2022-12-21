@@ -1,11 +1,11 @@
 import styles from "../styles/Palavra.module.css";
 import Head from "next/head";
 import Script from "next/script";
-import { use, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Router from "next/router";
 import { showMessage } from "../messages/alerts";
 
-export default function palavra() {
+export default function palavra(props) {
   const [palavra, setPalavra] = useState();
   const [dica, setDica] = useState("");
   const [palavraDigitada, setPalavraDigitada] = useState("");
@@ -26,6 +26,10 @@ export default function palavra() {
   };
 
   useEffect(() => {
+    if (Router.query.auth != "true") {
+      Router.push("/");
+    }
+
     let palavras = process.env.palavras;
 
     if (definePalavra(palavras) !== undefined) {
