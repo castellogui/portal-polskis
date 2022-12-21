@@ -8,8 +8,16 @@ export default function frases() {
 
   useEffect(()=>{
     let parenteses = document.getElementById('parenteses')
+    let segundaImagem = document.getElementById('segundaImagem')
+    let terceiraImagem = document.getElementById('terceiraImagem')
     setTimeout(()=>{
       parenteses.style.display = 'block'
+    },1000)
+    setTimeout(()=>{
+      segundaImagem.style.display = 'block'
+    },500)
+    setTimeout(()=>{
+      terceiraImagem.style.display = 'block'
     },1000)
   })
 
@@ -23,8 +31,8 @@ export default function frases() {
       <Script src="https://kit.fontawesome.com/796432032e.js" crossorigin="anonymous"></Script>
       <section className={styles.mainContainer}>
         <img className={styles.primeiraImagem} src="/static/eu-e-vc.png" alt="" />
-        <img className={styles.segundaImagem} src="/static/na-nossa.png" alt="" />
-        <img className={styles.terceiraImagem} src="/static/viagem.png" alt="" />
+        <img id={'segundaImagem'} className={styles.segundaImagem} src="/static/na-nossa.png" alt="" />
+        <img id={'terceiraImagem'} className={styles.terceiraImagem} src="/static/viagem.png" alt="" />
         <img id={'parenteses'} className={styles.parenteses} src="/static/parenteses.png" alt="" />
         <button
               className={styles.botao}

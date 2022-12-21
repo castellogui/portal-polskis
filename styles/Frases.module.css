@@ -19,6 +19,7 @@
   right: 0;
   left: 0;
   animation: esquerda 0.4s ease-in-out;
+  
 }
 
 .segundaImagem{
@@ -26,6 +27,7 @@
   left: 0;
   top: 8rem;
   animation: direita 0.4s ease-in-out;
+  display: none;
 }
 
 .terceiraImagem{
@@ -33,6 +35,7 @@
   left: 0;
   top: 24rem;
   animation: esquerda 0.4s ease-in-out;
+  display: none;
 } 
 
 .parenteses{
@@ -63,8 +66,8 @@
     left: -950px;
   }
 
-  80% {
-    left: 150px;
+  70% {
+    left: 300px;
   }
 
   100% {
@@ -77,8 +80,8 @@
     left: 950px;
   }
 
-  80% {
-    left: -150px;
+  70% {
+    left: -300px;
   }
 
   100% {
