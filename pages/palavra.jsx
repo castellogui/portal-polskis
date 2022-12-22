@@ -104,7 +104,7 @@ export default function palavra(props) {
                 verificarPalavra();
               }}
             >
-              <i style={{ scale: "1.5" }} className="fa-solid fa-arrow-right"></i>
+              <i style={{ scale: "1.5", color: 'white' }} className="fa-solid fa-arrow-right"></i>
               <audio id="audio" src="/static/audio-metro.mp3"></audio>
             </button>
           </div>

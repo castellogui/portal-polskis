@@ -1,4 +1,4 @@
-import styles from "../styles/PrimeiroDia.module.css";
+import styles from "../styles/SegundoDia.module.css";
 import Head from "next/head";
 import Router from "next/router";
 import Script from "next/script";
@@ -16,25 +16,16 @@ export default function primeiroDia(){
       </Head>
       <Script src="https://kit.fontawesome.com/796432032e.js" crossorigin="anonymous"></Script>
       <section className={styles.mainContainer}>
-        <span className={styles.primeiroDiaTitulo}>PRIMEIRO DIA</span>
-        <div className={styles.divItaliano}>
-          <img className={styles.italiano} src="/static/restaurantes/italiano.png" alt="" />
-          <div className={styles.divSpanItaliano}>
-            <span>Villa Tardivelli | 12:15</span>
-            <span>Restaurante Italiano</span>
-          </div>
+      <span className={styles.segundoDiaTitulo}>SEGUNDO DIA</span>
+      <div className={styles.divTobo}>
+        <img className={styles.tobo} src="/static/aqua/tobo.jpg" alt="" />
+        <div className={styles.divToboSpan}>
+          <span>Thermas Water Park</span>
+          <span>Um outro thermas pra você conhecer!</span>
         </div>
-        <div className={styles.divHorto}>
-          <img className={styles.horto2} src="/static/passeios/parque.webp" alt="" />
-          <img className={styles.horto1} src="/static/passeios/minihorto.jpg" alt="" />
-          <span>Passeios pela cidade | 14:15</span>
-          <span>Mini Horto e Casa de Santiago</span>
-        </div>
-        <div className={styles.divParrilla}>
-          <span>Parrilla Monte Alegre | 19:00</span>
-          <span>Steakhouse e comida argentina</span>
-          <img className={styles.parrilla} src="/static/restaurantes/restaurante-parrilla.jpg" alt="" />
-        </div>
+      </div>
+      <img className={styles.piscina} src="/static/aqua/piscina.jpg" alt="" />
+      <img className={styles.geral} src="/static/aqua/geral.jpg" alt="" />
         <button
               className={styles.botao}
               onClick={() => {

@@ -41,7 +41,7 @@ export default function frases() {
               return;
               }}
             >
-              <i style={{ scale: "1.5" }} className="fa-solid fa-arrow-right"></i>
+              <i style={{ scale: "1.5", color: 'white'  }} className="fa-solid fa-arrow-right"></i>
           </button>
       </section>
     </>
