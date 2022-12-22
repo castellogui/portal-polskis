@@ -4,7 +4,7 @@ import Router from "next/router";
 import Script from "next/script";
 import { useEffect } from "react";
 
-export default function primeiroDia(){
+export default function PrimeiroDia(){
   useEffect(() => {
     if (Router.query.auth != "true") {
       Router.push("/");

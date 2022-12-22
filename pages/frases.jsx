@@ -4,7 +4,7 @@ import Router from "next/router";
 import Script from "next/script";
 import { useEffect } from "react";
 
-export default function frases() {
+export default function Frases() {
 
   useEffect(()=>{
   

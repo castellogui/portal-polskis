@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import Router from "next/router";
 import { showMessage } from "../messages/alerts";
 
-export default function palavra(props) {
+export default function Palavra(props) {
   const [palavra, setPalavra] = useState();
   const [dica, setDica] = useState("");
   const [palavraDigitada, setPalavraDigitada] = useState("");
