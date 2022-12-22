@@ -2,8 +2,14 @@ import styles from "../styles/SegundoDia.module.css";
 import Head from "next/head";
 import Router from "next/router";
 import Script from "next/script";
+import { useEffect } from "react";
 
 export default function primeiroDia(){
+  useEffect(() => {
+    if (Router.query.auth != "true") {
+      Router.push("/");
+    }})
+
     return(
         <>
       <Head>
@@ -29,7 +35,13 @@ export default function primeiroDia(){
         <button
               className={styles.botao}
               onClick={() => {
-                Router.push("/terceiroDia");
+                Router.push(
+                  {
+                    pathname: "/terceiroDia",
+                    query: { auth: true },
+                  },
+                  "/terceiroDia"
+                );
               return;
               }}
             >

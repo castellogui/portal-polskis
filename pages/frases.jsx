@@ -7,6 +7,11 @@ import { useEffect } from "react";
 export default function frases() {
 
   useEffect(()=>{
+  
+    if (Router.query.auth != "true") {
+      Router.push("/");
+    }
+
     let parenteses = document.getElementById('parenteses')
     let segundaImagem = document.getElementById('segundaImagem')
     let terceiraImagem = document.getElementById('terceiraImagem')
@@ -37,7 +42,13 @@ export default function frases() {
         <button
               className={styles.botao}
               onClick={() => {
-                Router.push("/primeiroDia");
+                Router.push(
+                  {
+                    pathname: "/primeiroDia",
+                    query: { auth: true },
+                  },
+                  "/primeiroDia"
+                );
               return;
               }}
             >

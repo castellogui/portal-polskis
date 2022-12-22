@@ -2,8 +2,14 @@ import styles from "../styles/TerceiroDia.module.css";
 import Head from "next/head";
 import Router from "next/router";
 import Script from "next/script";
+import { useEffect } from "react";
 
 export default function primeiroDia(){
+  useEffect(() => {
+    if (Router.query.auth != "true") {
+      Router.push("/");
+    }})
+
     return(
         <>
       <Head>
@@ -37,6 +43,21 @@ export default function primeiroDia(){
         <span className={styles.spanRepresa1}>Represa das Palmeiras</span>
         <span className={styles.spanRepresa2}>Ao cair da tarde.</span>
     </div>
+    <button
+              className={styles.botao}
+              onClick={() => {
+                Router.push(
+                  {
+                    pathname: "/frases",
+                    query: { auth: true },
+                  },
+                  "/frases"
+                );
+              return;
+              }}
+            >
+              <i style={{ scale: "1.5", color: 'white'  }} className="fa-solid fa-arrow-left"></i>
+          </button>
       </section>
     </>
     )
