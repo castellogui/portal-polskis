@@ -29,7 +29,7 @@ export default function primeiroDia(){
         <button
               className={styles.botao}
               onClick={() => {
-                Router.push("/segundoDia");
+                Router.push("/terceiroDia");
               return;
               }}
             >

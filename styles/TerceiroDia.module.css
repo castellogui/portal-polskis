@@ -1,0 +1,109 @@
+@font-face {
+    font-family: RalewayHeavy;
+    src: url("../src/fonts/Raleway-ExtraBold.ttf");
+  }
+
+  
+@font-face {
+    font-family: Marta;
+    src: url("../src/fonts/Marta-Regular.otf");
+  }
+
+.mainContainer {
+    background-color: white;
+    height: 100vh;
+  }
+
+  .terceiroDiaTitulo{
+    color: black;
+    font-family: RalewayHeavy;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 3rem;
+    width: 15rem;
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+
+  .divEsquerda{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .balao{
+    width: 40%;
+    border-radius: 10px
+  }
+
+  .divEsquerdaSpans span{
+    display: block;
+    font-family: Marta;
+    font-size: 2.5rem;
+  }
+
+  .divEsquerdaSpans span:first-of-type{
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+  }
+
+  .divDireita{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 2rem;
+  }
+
+  .cavalo{
+    width: 75%;
+    padding-left: 9rem;
+    border-radius: 10px;
+  }
+
+  .spanCavalo1, .spanCavalo2{
+    padding-left: 9rem;
+  }
+
+  .spanCavalo1, .spanRepresa1, .spanTirolesa1{
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+  }
+
+  .spanCavalo2, .spanRepresa2, .spanTirolesa2{
+    font-family: Marta;
+    font-size: 2.5rem;
+  }
+  
+  .represa{
+    width: 80%;
+    margin-top: 2rem;
+    border-radius: 10px;
+  }
+  
+  .divTirolesa{
+    position: absolute;
+    width: 25%;
+    left: 25rem;
+    bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tirolesa{
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  @media only screen 
+   and (min-width : 1400px) {
+
+    .divTirolesa{
+        left: 35rem;
+      }
+}
