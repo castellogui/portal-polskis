@@ -12,6 +12,7 @@
 .mainContainer {
     background-color: white;
     height: 100vh;
+    animation: appear 2s
   }
 
   .botao {
@@ -93,4 +94,13 @@
     height: 100%;
     width: 25%;
     border-radius: 10px;
+  }
+
+  @keyframes appear {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
   }

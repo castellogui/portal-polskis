@@ -8,9 +8,9 @@ export default function Frases() {
 
   useEffect(()=>{
   
-    // if (Router.query.auth != "true") {
-    //   Router.push("/");
-    // }
+    if (Router.query.auth != "true") {
+      Router.push("/");
+    }
 
     let parenteses = document.getElementById('parenteses')
     let segundaImagem = document.getElementById('segundaImagem')

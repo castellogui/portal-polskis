@@ -8,7 +8,13 @@ export default function PrimeiroDia(){
   useEffect(() => {
     if (Router.query.auth != "true") {
       Router.push("/");
-    }})
+    }
+  
+    let mainContainer = document.getElementById('mainContainer')
+    setTimeout(()=>{
+      mainContainer.style.display = 'block'
+    },1000)
+  })
 
     return(
         <>
@@ -21,7 +27,7 @@ export default function PrimeiroDia(){
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet"></link>
       </Head>
       <Script src="https://kit.fontawesome.com/796432032e.js" crossorigin="anonymous"></Script>
-      <section className={styles.mainContainer}>
+      <section id='mainContainer' className={styles.mainContainer}>
       <span className={styles.terceiroDiaTitulo}>TERCEIRO DIA</span>
       <div className={styles.divEsquerda}>
          <img className={styles.balao} src="/static/passeios/balao.png" alt="" />

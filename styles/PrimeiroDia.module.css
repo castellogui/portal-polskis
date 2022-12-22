@@ -12,6 +12,8 @@
 .mainContainer {
     background-color: white;
     height: 100vh;
+    display: none;
+    animation: appear 2s
   }
 
   .botao {
@@ -136,4 +138,13 @@
   .parrilla{
     float: right;
     border-radius: 10px;
+  }
+
+  @keyframes appear {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
   }
