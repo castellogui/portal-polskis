@@ -7,7 +7,7 @@ const nextConfig = {
     palavras: [
       { dica: "Nossa série favorita. Não escreva corretamente!", data: "2022-12-24 ", palavra: "Tilêndi" },
       { dica: "Ama creminho gostoso, é roxo e foi um dos nossos primeiros apelidos!", data: "2022-12-25 ", palavra: "Tinky Winky" },
-      { dica: "Um apelido que falamos pra pessoas pequenas.", data: "2022-12-26 ", palavra: "Quiança" },
+      { dica: "Um apelido que falamos pra pessoas pequenas.", data: "2022-12-26 ", palavra: "Quiansa" },
       { dica: "Obrigado amigo, você é um amigo, amigo!.", data: "2022-12-27 ", palavra: "Amiagu" },
       { dica: "Um lugar onde vai ficar pra sempre nas nossas memórias! Pertinho de casa e com muitas crianças!", data: "2022-12-28 ", palavra: "Morcegão" },
       { dica: "Uma mini vida que não sai do nosso pé!", data: "2022-12-29 ", palavra: "July Tucker" },
