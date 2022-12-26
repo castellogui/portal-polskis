@@ -79,6 +79,12 @@ export default function Palavra(props) {
       ).then(() => {
         Router.reload();
       });
+    }else{
+      await showMessage(
+        "Você não acertou a palavra, Polski!",
+        "error",
+        "Nunca desista, pode tentar quantas vezes quiser."
+      )
     }
   };
 
