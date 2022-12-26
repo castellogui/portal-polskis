@@ -54,7 +54,7 @@ export default function Palavra(props) {
   }, []);
 
   const verificarPalavra = async () => {
-    if (palavra.palavra === palavraDigitada) {
+    if (String(palavra.palavra).toLowerCase() === String(palavraDigitada).toLowerCase()) {
       localStorage.setItem(
         "palavras",
         JSON.stringify([{ palavra: palavra.palavra, data: palavra.data }])
