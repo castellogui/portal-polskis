@@ -5,7 +5,7 @@ const nextConfig = {
     logins: ['emilynicole', 'guilhermecastello'],
     senhas: ['mnb3698', '@Usuario10.'],
     palavras: [
-      { dica: "Nossa série favorita. Não escreva corretamente!", data: "2022-12-21 ", palavra: "Tilêndi" },
+      { dica: "Nossa série favorita. Não escreva corretamente!", data: "2022-12-24 ", palavra: "Tilêndi" },
       { dica: "Ama creminho gostoso, é roxo e foi um dos nossos primeiros apelidos!", data: "2022-12-25 ", palavra: "Tinky Winky" },
       { dica: "Um apelido que falamos pra pessoas pequenas.", data: "2022-12-26 ", palavra: "Quiança" },
       { dica: "Obrigado amigo, você é um amigo, amigo!.", data: "2022-12-27 ", palavra: "Amiagu" },
