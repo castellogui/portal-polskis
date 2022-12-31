@@ -12,7 +12,7 @@ const nextConfig = {
       { dica: "Um lugar onde vai ficar pra sempre nas nossas memórias! Pertinho de casa e com muitas crianças!", data: "2022-12-28 ", palavra: "Morcegão" },
       { dica: "Uma mini vida que não sai do nosso pé!", data: "2022-12-29 ", palavra: "July Tucker" },
       { dica: "Uma das coisas que você mais ama fazer na vida, e que você é muito boa!", data: "2022-12-30 ", palavra: "Design" },
-      { dica: "Eu e você no Valorant somos amigos de ... !", data: "2022-12-31 ", palavra: "Amigos de Passe" },
+      { dica: "Eu e você no Valorant somos amigos de ... !", data: "2022-12-31 ", palavra: "Amigus de Passi" },
       { dica: "A data que mudou tudo!", data: "2023-01-01 ", palavra: "12/09/2020" },
       { dica: "Dancinha do ... hã hã", data: "2023-01-02 ", palavra: "Dancinha do Elevador" },
       { dica: "A personagem que mais se parece com você no Valorant!", data: "2023-01-03 ", palavra: "Sage" },
