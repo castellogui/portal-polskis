@@ -59,7 +59,7 @@ export default function Palavra(props) {
         "palavras",
         JSON.stringify([{ palavra: palavra.palavra, data: palavra.data }])
       );
-      if (palavra.data == "2023-01-04 ") {
+      if (palavra.data == "2023-01-03 ") {
         Router.push(
           {
             pathname: "/frases",
