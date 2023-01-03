@@ -15,8 +15,8 @@ const nextConfig = {
       { dica: "Eu e você no Valorant somos amigos de ... !", data: "2022-12-31 ", palavra: "Amigus de Passi" },
       { dica: "A data que mudou tudo!", data: "2023-01-01 ", palavra: "12/09/2020" },
       { dica: "Dancinha do ... hã hã", data: "2023-01-02 ", palavra: "Dancinha do Elevador" },
-      { dica: "A personagem que mais se parece com você no Valorant!", data: "2023-01-03 ", palavra: "Sage" },
-      { dica: "A melhor palavra que já inventamos, e serve pra tudo!", data: "2023-01-04 ", palavra: "Polski" },
+      // { dica: "A personagem que mais se parece com você no Valorant!", data: "2023-01-03 ", palavra: "Sage" },
+      { dica: "A melhor palavra que já inventamos, e serve pra tudo!", data: "2023-01-03 ", palavra: "Polski" },
     ],
     MONGODB_URL: 'mongodb+srv://guilhermecastello:<password>@cluster0.55jdgsh.mongodb.net/?retryWrites=true&w=majority'
   }
